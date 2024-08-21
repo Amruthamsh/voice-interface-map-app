@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     recognition.onerror = function (event) {
       console.error("Speech recognition error", event);
-      alert("Error with speech recognition: " + event.error);
+      //alert("Error with speech recognition: " + event.error);
     };
 
     recognition.onend = function () {
