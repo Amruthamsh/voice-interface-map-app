@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Activated Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <input type="text" id="search-bar" placeholder="Search location" />
+    <h4 id="voice-query-bar">awaiting voice query...</h4>
+    <div id="help-box">
+      <h3>Voice Commands:</h3>
+      <ul>
+        <li>"Go to [place name]"</li>
+        <li>"Navigate to [place name]"</li>
+        <li>"Zoom in"</li>
+        <li>"Zoom out"</li>
+        <li>"Satellite view"</li>
+        <li>"Terrain view"</li>
+        <li>"Default view"</li>
+        <li>"Dark view"</li>
+        <li>"Night view"</li>
+        <li>"Add marker"</li>
+      </ul>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
